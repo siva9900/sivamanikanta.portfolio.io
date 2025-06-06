@@ -7,13 +7,6 @@ import { componentTagger } from "lovable-tagger";
 export default defineConfig(({ mode }) => ({
   plugins: [react()],
   base: mode === "production" ? "/sivamanikanta.portfolio.io/" : "/",
-  build: {
-    rollupOptions: {
-      input: {
-        main: "index.html",
-      },
-    },
-  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "src"),
