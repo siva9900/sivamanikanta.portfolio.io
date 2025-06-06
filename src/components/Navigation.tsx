@@ -31,7 +31,7 @@ const Navigation = () => {
       <div className="container-max section-padding">
         <div className="flex items-center justify-between">
           <div className="text-xl font-bold gradient-text animate-text-shimmer bg-gradient-to-r from-yellow-400 via-orange-500 to-amber-400 bg-[length:200%_auto] bg-clip-text">
-            Sivamanikanta.dev
+              CHAVVAKULA SIVAMANIKANTA
           </div>
 
           {/* Desktop Navigation */}
